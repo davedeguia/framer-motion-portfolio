@@ -1,0 +1,17 @@
+@import '../../styles/constants.scss'
+
+.wrapper{
+    overflow: hidden;
+
+    .container{
+        position: relative;
+        z-index: 1;
+
+        .upperElements{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+    }
+}

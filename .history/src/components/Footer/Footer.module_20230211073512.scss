@@ -1,0 +1,14 @@
+@import './../../styles/constants.scss';
+
+.wrapper {
+
+    background: white;
+    .container {
+        gap: 2rem;
+
+
+        .left {
+            flex: 3rem;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@import './../../styles/constants.scss';
+
+.wrapper {
+
+    background: white;
+    .container {
+        gap: 2rem;
+
+
+        .left {
+            flex: 3;
+
+            >*{
+                display: block;
+            }
+
+            >:nth-child(2) {
+                margin-top: 3rem;
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.wrapper{
+
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    transform: none;
+    position: sticky;
+    top: 0;
+    transition: all 300ms ease;
+
+    .container{
+        position: relative;
+        justify-content: space-between;
+        font-weight: 500;
+
+        .name{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+}

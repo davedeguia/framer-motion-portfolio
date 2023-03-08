@@ -1,0 +1,16 @@
+.wrapper{
+
+    position: relative;
+    z-index: 99;
+    opacity: 1;
+    transform: none;
+    position: sticky;
+    top: 0;
+    
+
+    .container{
+        position: relative;
+        justify-content: space-between;
+        font-weight: 500;;
+    }
+}
